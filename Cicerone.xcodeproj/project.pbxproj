@@ -32,8 +32,10 @@
 		1FE4FE59148E4CDD008EDE8B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE4FE58148E4CDD008EDE8B /* Cocoa.framework */; };
 		1FE4FE65148E4CDD008EDE8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE4FE64148E4CDD008EDE8B /* main.m */; };
 		1FE4FE6C148E4CDD008EDE8B /* COAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE4FE6B148E4CDD008EDE8B /* COAppDelegate.m */; };
-		B7247B652BD2AE7200C13021 /* Pods-CiceroneTests in Frameworks */ = {isa = PBXBuildFile; fileRef = B79350752BD2ACB100C793ED /* Pods-CiceroneTests */; };
-		B7247B662BD2AE7200C13021 /* Pods-CiceroneTests in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B79350752BD2ACB100C793ED /* Pods-CiceroneTests */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8309F99598F35E14F033C333 /* Pods_CiceroneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B70EBB99C630D39AC65F0200 /* Pods_CiceroneTests.framework */; };
+		9A810383EFA00A1425A8AEA1 /* Pods_Cicerone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E3B2F2DB08D3A5D17E010AE /* Pods_Cicerone.framework */; };
+		B7247B652BD2AE7200C13021 /* Pods_CiceroneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79350752BD2ACB100C793ED /* Pods_CiceroneTests.framework */; };
+		B7247B662BD2AE7200C13021 /* Pods_CiceroneTests.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B79350752BD2ACB100C793ED /* Pods_CiceroneTests.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B7247B6D2BD52CA800C13021 /* NSString+Summarization.m in Sources */ = {isa = PBXBuildFile; fileRef = B7247B6C2BD52CA800C13021 /* NSString+Summarization.m */; };
 		B7247BA52C05C13B00C13021 /* COHomebrewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7247BA42C05C13B00C13021 /* COHomebrewView.xib */; };
 		B7247BA72C05C14D00C13021 /* COLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7247BA62C05C14D00C13021 /* COLoadingView.xib */; };
@@ -47,8 +49,8 @@
 		B7247BB72C05C1D200C13021 /* COBundleWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7247BB62C05C1D200C13021 /* COBundleWindow.xib */; };
 		B7247BB92C066A2600C13021 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B7247BB82C066A2600C13021 /* Localizable.xcstrings */; };
 		B7247BBE2C08408B00C13021 /* COSourceListTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7247BBD2C08408B00C13021 /* COSourceListTableCellView.m */; };
-		B79350782BD2ACCD00C793ED /* Pods-Cicerone in Frameworks */ = {isa = PBXBuildFile; fileRef = B79350732BD2ACB100C793ED /* Pods-Cicerone */; };
-		B79350792BD2ACCD00C793ED /* Pods-Cicerone in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B79350732BD2ACB100C793ED /* Pods-Cicerone */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B79350782BD2ACCD00C793ED /* Pods_Cicerone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79350732BD2ACB100C793ED /* Pods_Cicerone.framework */; };
+		B79350792BD2ACCD00C793ED /* Pods_Cicerone.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B79350732BD2ACB100C793ED /* Pods_Cicerone.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B7BA471F29EE6EB400301D80 /* Credits.md in Resources */ = {isa = PBXBuildFile; fileRef = B7BA471E29EE6EB400301D80 /* Credits.md */; };
 		B7C9177D29F80C8800A6E748 /* brewInfo_sbtenv.txt in Resources */ = {isa = PBXBuildFile; fileRef = B7C9177329F80C8700A6E748 /* brewInfo_sbtenv.txt */; };
 		B7C9177E29F80C8800A6E748 /* brewInfo_bison.txt in Resources */ = {isa = PBXBuildFile; fileRef = B7C9177429F80C8700A6E748 /* brewInfo_bison.txt */; };
@@ -120,7 +122,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B7247B662BD2AE7200C13021 /* Pods-CiceroneTests in Embed Frameworks */,
+				B7247B662BD2AE7200C13021 /* Pods_CiceroneTests.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,7 +133,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B79350792BD2ACCD00C793ED /* Pods-Cicerone in Embed Frameworks */,
+				B79350792BD2ACCD00C793ED /* Pods_Cicerone.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,10 +257,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B79350782BD2ACCD00C793ED /* Pods-Cicerone in Frameworks */,
+				B79350782BD2ACCD00C793ED /* Pods_Cicerone.framework in Frameworks */,
 				D2CC8CA71B90F04C00F763DF /* Security.framework in Frameworks */,
 				15D2CFAD18F202D000B6D9F1 /* QuartzCore.framework in Frameworks */,
 				1FE4FE59148E4CDD008EDE8B /* Cocoa.framework in Frameworks */,
+				9A810383EFA00A1425A8AEA1 /* Pods_Cicerone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,8 +269,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7247B652BD2AE7200C13021 /* Pods-CiceroneTests in Frameworks */,
+				B7247B652BD2AE7200C13021 /* Pods_CiceroneTests.framework in Frameworks */,
 				1594D13C1B8A6D1A00F764FA /* QuartzCore.framework in Frameworks */,
+				8309F99598F35E14F033C333 /* Pods_CiceroneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,11 +452,11 @@
 		B79350662BD2ACB100C793ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B793506F2BD2ACB100C793ED /* DCOAboutWindow */,
-				B79350712BD2ACB100C793ED /* DCOTransparentScroller */,
-				B79350732BD2ACB100C793ED /* Pods-Cicerone */,
-				B79350752BD2ACB100C793ED /* Pods-CiceroneTests */,
-				B79350772BD2ACB100C793ED /* PXSourceList */,
+				B793506F2BD2ACB100C793ED /* DCOAboutWindow.framework */,
+				B79350712BD2ACB100C793ED /* DCOTransparentScroller.framework */,
+				B79350732BD2ACB100C793ED /* Pods_Cicerone.framework */,
+				B79350752BD2ACB100C793ED /* Pods_CiceroneTests.framework */,
+				B79350772BD2ACB100C793ED /* PXSourceList.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -558,7 +562,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				CLASSPREFIX = CO;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1600;
 				ORGANIZATIONNAME = "oaVa-o";
 				TargetAttributes = {
 					1FE4FE53148E4CDD008EDE8B = {
@@ -595,42 +599,37 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		B793506F2BD2ACB100C793ED /* DCOAboutWindow */ = {
+		B793506F2BD2ACB100C793ED /* DCOAboutWindow.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			name = DCOAboutWindow;
 			path = DCOAboutWindow.framework;
 			remoteRef = B793506E2BD2ACB100C793ED /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B79350712BD2ACB100C793ED /* DCOTransparentScroller */ = {
+		B79350712BD2ACB100C793ED /* DCOTransparentScroller.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			name = DCOTransparentScroller;
 			path = DCOTransparentScroller.framework;
 			remoteRef = B79350702BD2ACB100C793ED /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B79350732BD2ACB100C793ED /* Pods-Cicerone */ = {
+		B79350732BD2ACB100C793ED /* Pods_Cicerone.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			name = "Pods-Cicerone";
 			path = Pods_Cicerone.framework;
 			remoteRef = B79350722BD2ACB100C793ED /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B79350752BD2ACB100C793ED /* Pods-CiceroneTests */ = {
+		B79350752BD2ACB100C793ED /* Pods_CiceroneTests.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			name = "Pods-CiceroneTests";
 			path = Pods_CiceroneTests.framework;
 			remoteRef = B79350742BD2ACB100C793ED /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B79350772BD2ACB100C793ED /* PXSourceList */ = {
+		B79350772BD2ACB100C793ED /* PXSourceList.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			name = PXSourceList;
 			path = PXSourceList.framework;
 			remoteRef = B79350762BD2ACB100C793ED /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -818,6 +817,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(NATIVE_ARCH)";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -842,6 +842,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -871,6 +872,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(NATIVE_ARCH)";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -895,6 +897,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -926,7 +929,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 0;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = P95RDTEVF4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -968,7 +971,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 0;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = P95RDTEVF4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,0 +1,6 @@
+framework module Pods_CiceroneTests {
+  umbrella header "Pods-CiceroneTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

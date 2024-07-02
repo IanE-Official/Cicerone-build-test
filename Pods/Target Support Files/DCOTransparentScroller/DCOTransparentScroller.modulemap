@@ -1,0 +1,6 @@
+framework module DCOTransparentScroller {
+  umbrella header "DCOTransparentScroller-umbrella.h"
+
+  export *
+  module * { export * }
+}

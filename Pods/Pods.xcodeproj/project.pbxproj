@@ -1,0 +1,1475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		ED77B4B88587C894E85C361023D67C53 /* Sparkle */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 31C3FA8CADE61CE3FE2492EDBA06C452 /* Build configuration list for PBXAggregateTarget "Sparkle" */;
+			buildPhases = (
+				9A181939804C9F1E56224ACF31BF086B /* [CP] Copy dSYMs */,
+			);
+			dependencies = (
+			);
+			name = Sparkle;
+			productName = Sparkle;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0356977BBB9DA8E615F007FDFC9BBDF6 /* DCOTransparentScroller-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6809904F4D3E375CA31C6878C104A6EF /* DCOTransparentScroller-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EA61A1C70496CF047A73AE3D00597EE /* DCOAboutWindow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6053A4815AC79DCC59AFE1BAEFF871 /* DCOAboutWindow-dummy.m */; };
+		0F4163D01751CFE463EC67D822898217 /* DCOAboutWindow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60BE199F72B43397B382266E5991A8F5 /* DCOAboutWindow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10E8D3E1E9EE50F884263887FC61943A /* DCOTransparentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED5622B1911F803247332550019ED27 /* DCOTransparentScrollView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		126272468929F5344DC518698624DBD9 /* Pods-Cicerone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D300829FCB80A2D2F0F2E69CA78074 /* Pods-Cicerone-dummy.m */; };
+		17BA80298A50ACE848044C887151835E /* PXSourceList.m in Sources */ = {isa = PBXBuildFile; fileRef = F47D0E19FA5AC4BDFB5534773EB5613D /* PXSourceList.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1CBDA9683517EBFC8CAC7BC15460C21D /* DCOTransparentScroller-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 319BAAA952F7A3239D28A94308D084BD /* DCOTransparentScroller-dummy.m */; };
+		236DA9CFC54A2F5316676285989BBB01 /* Pods-CiceroneTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2CA2AADBB1E80E133925A3BF871BC0 /* Pods-CiceroneTests-dummy.m */; };
+		263E5357F21B251A7066A5D48E6F97E9 /* PXSourceList-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B835F6D1ECA8DFFBE94B69A4BF744F08 /* PXSourceList-dummy.m */; };
+		2D3E0BFE2D74389A809E366B5E5D6DA1 /* PXSourceListDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A23639CA6688968AF97C2F62AB0252 /* PXSourceListDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B54C1217B270D62F78505353209031F /* PXSourceListRuntimeAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E6610D849C020B2BA38DE4D3FA326C /* PXSourceListRuntimeAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D8FA5C208A421E5D1F6326BBDF5B131 /* DCOAboutWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 944DAFAFC6C455CDCF22B25347570E9A /* DCOAboutWindowController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		470FC5D94128628FFC23A5FC195672D2 /* PXSourceListRuntimeAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BE89DF90F96146C92428F32D3DB27DE1 /* PXSourceListRuntimeAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4D9124EB57EBC62ACE82139C6DBA612B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EEA6965E4D63FD3ADBBBB13623E0DF /* Cocoa.framework */; };
+		551E3F26EE09DFA28C6CBB6AB5CE1397 /* DCOBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EF32FCBE7563BC6BE7FEC7C0382CD5C /* DCOBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55ABE57BC000F7DA918F6A053AFA222A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EEA6965E4D63FD3ADBBBB13623E0DF /* Cocoa.framework */; };
+		5B544CE83E96314EF02EB58C3E988078 /* DCOTransparentScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FE20144A0EE511935858771E410B73 /* DCOTransparentScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BDB81855D763DD87F20B977B01F08C5 /* PXSourceListBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A1BF8ADDA5D0C894E803269D808018 /* PXSourceListBadgeView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6B30627CAAF20E54E2B64CE8CA09FFC9 /* PXSourceListBadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AA264EE922DEC8345E437D460996777 /* PXSourceListBadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7007C3F867460883C4E31A2248FF015A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EEA6965E4D63FD3ADBBBB13623E0DF /* Cocoa.framework */; };
+		78EA6C132CD3B6A8E9CCEA99711C00BE /* PXSourceListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9756006ED7146F4D5C80EBB8B1FB85BD /* PXSourceListItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7BA5F376B3E906EFC853C81EC6EA3E7A /* Pods-Cicerone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCE53F47638D527043E1EAC66B658A58 /* Pods-Cicerone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83E6D3C8914A98455C4F97C493901AE5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6A5D9ED4AC9847F663D742EF76A13E /* QuartzCore.framework */; };
+		9560BE985BCF37D60BCD9D9A8DF013A0 /* PXSourceListPrivateConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = EC40D37CF51F7AA9C04FFE9CF7A594C9 /* PXSourceListPrivateConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1584F53B829D162282572BDC1DDE896 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EEA6965E4D63FD3ADBBBB13623E0DF /* Cocoa.framework */; };
+		A41224F1ABED3BFADE04C0EA1955D76F /* PXSourceListTableCellView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CE80CD6D2CEBDA758D60C18D6D38209 /* PXSourceListTableCellView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5E47CA83C69DE826BB207BBA8A3D3B7 /* PXSourceList.h in Headers */ = {isa = PBXBuildFile; fileRef = 7230AF318773B1CFB2EF6CA4A5AEBD64 /* PXSourceList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD9FF53C385EAB1535C76307E717ADAD /* DCOBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5A69984DD3D7CFD1D7DFE386EF186B /* DCOBackgroundView.m */; };
+		B3886E49C28AD415B128DC817D248764 /* PXSourceListDelegateDataSourceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F27DCE3F104DE24F38DF5F9036626FE /* PXSourceListDelegateDataSourceProxy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BFD96B633C6857BA65686D540355C718 /* DCOAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AFA5327BBD19FFAB9C85380969732B /* DCOAboutWindowController.m */; };
+		C4C7FD996AAD3DE52CBAD55B92D8F614 /* DCOTransparentScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F75C64878306878392E414F74892FF7 /* DCOTransparentScroller.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C547D9A585A4387A7FCAAE7D1DD5C6B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EEA6965E4D63FD3ADBBBB13623E0DF /* Cocoa.framework */; };
+		CAE72F4D47E59BA8A1144830B52DE5E6 /* PXSourceListItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F2EF8DDB0C5B4CA8CCF8D51AE77D0691 /* PXSourceListItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD4A624F280FF19BB38DC8D2131B205 /* PXSourceListDelegateDataSourceProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F4AF31366B97D039FE69B74D1F7C8C8 /* PXSourceListDelegateDataSourceProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CDBE501CC586E5CBB25D60BDE7E83A36 /* PXSourceListDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D14D9A3E5F489AF7FC262CDDAE70B658 /* PXSourceListDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE58598238E12B0D97DD58CB4B07A0DA /* Pods-CiceroneTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8F44D516B4CFC62353B074938E20C1 /* Pods-CiceroneTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7F854DB5C7274790D327827152085D0 /* PXSourceList-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25ED2B1E6D99147A731AD8CB887CA361 /* PXSourceList-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8C4721F53366A9359F406B0D229F22F /* PXSourceListBadgeCell.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD435B9C4B3E2BA2DD10D4DA636D048 /* PXSourceListBadgeCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44A61A4E74CEBFA4BE5EAF9699E2102 /* DCOAboutWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7D2F720F2E5B741882255D688ADFE32 /* DCOAboutWindow.xib */; };
+		E978F7A2884601A30DA6B68B8E1BFD3E /* DCOTransparentScroller.h in Headers */ = {isa = PBXBuildFile; fileRef = CB893C73BC5809161CEF820F3A6FB1ED /* DCOTransparentScroller.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECDED90D6E07951DA8F8E30FE431C8F1 /* PXSourceListBadgeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7925354B329F22B346D940DE11AE028 /* PXSourceListBadgeCell.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F453CE983B01B0A74D42B0C0EF6EA34F /* DCOAboutWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 24CB624186B06E6FB49F8DDD95A46B11 /* DCOAboutWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4F55ACA2C21CC8B619EA938AE1A1B23 /* PXSourceListTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE4B4EE232A66A138E116B08246B004 /* PXSourceListTableCellView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0262F1583ED80F7EFC95460B22C28103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED77B4B88587C894E85C361023D67C53;
+			remoteInfo = Sparkle;
+		};
+		2530CFAFD49A0E10C7BA8A599A6768FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68475F67E4E3E7CE4DA1BE9B730848D6;
+			remoteInfo = DCOAboutWindow;
+		};
+		54A58480CD5DAD0A4DE0EE5D58E3E87D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1561D4129CE8832BE2C16AC8153529F7;
+			remoteInfo = "Pods-Cicerone";
+		};
+		679277AF96EB2EB7413A238A8BB245A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F0275071F44FE841D0D575DD123BCFE;
+			remoteInfo = DCOTransparentScroller;
+		};
+		A59E6257DC260C9CCC3A03FF0CE4BD0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F0275071F44FE841D0D575DD123BCFE;
+			remoteInfo = DCOTransparentScroller;
+		};
+		E696D83AF0888CD10030D20AA8FA7728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD10B6B4320021818109896365D84B6C;
+			remoteInfo = PXSourceList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		069C95CD0DF6C6648EAFEFCBBB110D8B /* DCOTransparentScroller-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCOTransparentScroller-prefix.pch"; sourceTree = "<group>"; };
+		0D715515C08041E8EB7005D365580F46 /* SUCodeSigningVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUCodeSigningVerifier.h; path = Sparkle.framework/Versions/A/Headers/SUCodeSigningVerifier.h; sourceTree = "<group>"; };
+		0F5E0B7CAA2589C381DDDC83D7C302CB /* SUStandardVersionComparator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUStandardVersionComparator.h; path = Sparkle.framework/Versions/A/Headers/SUStandardVersionComparator.h; sourceTree = "<group>"; };
+		1203EEAD6C68BFED363B002DAC035175 /* DCOTransparentScroller.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCOTransparentScroller.modulemap; sourceTree = "<group>"; };
+		1513F6344302B7BED3A62F3D76A58341 /* PXSourceList-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXSourceList-prefix.pch"; sourceTree = "<group>"; };
+		152F631217009BD85D4FC43A5C04AA87 /* DCOAboutWindow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DCOAboutWindow-Info.plist"; sourceTree = "<group>"; };
+		16832971BD7DAD3C2EE570570A79342B /* Pods_CiceroneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CiceroneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6A5D9ED4AC9847F663D742EF76A13E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		1ABAB88054402683FF5555A195E8DD81 /* Pods-CiceroneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CiceroneTests.release.xcconfig"; sourceTree = "<group>"; };
+		23B316915B49946353E9008C89ACE66A /* SUExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUExport.h; path = Sparkle.framework/Versions/A/Headers/SUExport.h; sourceTree = "<group>"; };
+		24CB624186B06E6FB49F8DDD95A46B11 /* DCOAboutWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCOAboutWindow.h; path = DCOAboutWindow/DCOAboutWindow.h; sourceTree = "<group>"; };
+		25ED2B1E6D99147A731AD8CB887CA361 /* PXSourceList-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXSourceList-umbrella.h"; sourceTree = "<group>"; };
+		2C962A09E4753D549F162B76BA28B89E /* Sparkle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sparkle.release.xcconfig; sourceTree = "<group>"; };
+		2ED5622B1911F803247332550019ED27 /* DCOTransparentScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCOTransparentScrollView.m; path = DCOTransparentScroller/DCOTransparentScrollView.m; sourceTree = "<group>"; };
+		2F5A69984DD3D7CFD1D7DFE386EF186B /* DCOBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCOBackgroundView.m; path = DCOAboutWindow/DCOBackgroundView.m; sourceTree = "<group>"; };
+		319BAAA952F7A3239D28A94308D084BD /* DCOTransparentScroller-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCOTransparentScroller-dummy.m"; sourceTree = "<group>"; };
+		33A1BF8ADDA5D0C894E803269D808018 /* PXSourceListBadgeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSourceListBadgeView.m; path = PXSourceList/PXSourceListBadgeView.m; sourceTree = "<group>"; };
+		33D300829FCB80A2D2F0F2E69CA78074 /* Pods-Cicerone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cicerone-dummy.m"; sourceTree = "<group>"; };
+		3C2CA2AADBB1E80E133925A3BF871BC0 /* Pods-CiceroneTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CiceroneTests-dummy.m"; sourceTree = "<group>"; };
+		3D29EDE064E62952AA1848A7B0CB8955 /* SPUDownloaderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderProtocol.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderProtocol.h; sourceTree = "<group>"; };
+		3F75C64878306878392E414F74892FF7 /* DCOTransparentScroller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCOTransparentScroller.m; path = DCOTransparentScroller/DCOTransparentScroller.m; sourceTree = "<group>"; };
+		4674EC2376F4F621C0473B168DCA7C51 /* Pods-Cicerone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cicerone.modulemap"; sourceTree = "<group>"; };
+		4F9EA0DFDC90CB150AEC531544E39A3B /* DCOTransparentScroller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCOTransparentScroller.debug.xcconfig; sourceTree = "<group>"; };
+		57E5C5C2BB3FC24549D5ED30358753C0 /* SUAppcastItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcastItem.h; path = Sparkle.framework/Versions/A/Headers/SUAppcastItem.h; sourceTree = "<group>"; };
+		584D89D19CC79E8E3F390BC70B791AF8 /* Pods-Cicerone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cicerone.release.xcconfig"; sourceTree = "<group>"; };
+		58B8AA66B24D525CC8A54BA8DAB5F627 /* Sparkle-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Sparkle-copy-dsyms.sh"; sourceTree = "<group>"; };
+		59602DE90786E07DBFF28876D5F7CFD2 /* Pods-CiceroneTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CiceroneTests-Info.plist"; sourceTree = "<group>"; };
+		59DE04C286C73CFB64DAE2212241BF37 /* DCOTransparentScroller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCOTransparentScroller.release.xcconfig; sourceTree = "<group>"; };
+		5AA264EE922DEC8345E437D460996777 /* PXSourceListBadgeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceListBadgeView.h; path = PXSourceList/PXSourceListBadgeView.h; sourceTree = "<group>"; };
+		5CE80CD6D2CEBDA758D60C18D6D38209 /* PXSourceListTableCellView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceListTableCellView.h; path = PXSourceList/PXSourceListTableCellView.h; sourceTree = "<group>"; };
+		5EF32FCBE7563BC6BE7FEC7C0382CD5C /* DCOBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCOBackgroundView.h; path = DCOAboutWindow/DCOBackgroundView.h; sourceTree = "<group>"; };
+		60BE199F72B43397B382266E5991A8F5 /* DCOAboutWindow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCOAboutWindow-umbrella.h"; sourceTree = "<group>"; };
+		624624BD0760A5D1D8BE4C09DF17945A /* PXSourceList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXSourceList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		637A0D1198EFEF13A6663863C62D988C /* Pods-Cicerone-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cicerone-frameworks.sh"; sourceTree = "<group>"; };
+		638B3D482675D5B7F772E86A0195DEFF /* DCOAboutWindow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCOAboutWindow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63AFA5327BBD19FFAB9C85380969732B /* DCOAboutWindowController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCOAboutWindowController.m; path = DCOAboutWindow/DCOAboutWindowController.m; sourceTree = "<group>"; };
+		6717683B270E078467AB636904F2CE68 /* DCOTransparentScroller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCOTransparentScroller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C52910B164763508FEF345FB6F4835 /* Pods-Cicerone-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cicerone-acknowledgements.plist"; sourceTree = "<group>"; };
+		6809904F4D3E375CA31C6878C104A6EF /* DCOTransparentScroller-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCOTransparentScroller-umbrella.h"; sourceTree = "<group>"; };
+		6AF8ED8C478E038B5C10200F427B0EC8 /* PXSourceList-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PXSourceList-Info.plist"; sourceTree = "<group>"; };
+		6BB42AD79442DCF023EFBE2D0F4EF670 /* SUErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUErrors.h; path = Sparkle.framework/Versions/A/Headers/SUErrors.h; sourceTree = "<group>"; };
+		6F27DCE3F104DE24F38DF5F9036626FE /* PXSourceListDelegateDataSourceProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSourceListDelegateDataSourceProxy.m; path = PXSourceList/Internal/PXSourceListDelegateDataSourceProxy.m; sourceTree = "<group>"; };
+		70001119F4D6611DF15C6DBAAB332A67 /* PXSourceList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PXSourceList.modulemap; sourceTree = "<group>"; };
+		7230AF318773B1CFB2EF6CA4A5AEBD64 /* PXSourceList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceList.h; path = PXSourceList/PXSourceList.h; sourceTree = "<group>"; };
+		73A23639CA6688968AF97C2F62AB0252 /* PXSourceListDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceListDataSource.h; path = PXSourceList/PXSourceListDataSource.h; sourceTree = "<group>"; };
+		73A425CC6F535D01FF4843EB75C369A1 /* Sparkle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sparkle.h; path = Sparkle.framework/Versions/A/Headers/Sparkle.h; sourceTree = "<group>"; };
+		73D593B7139E8A686804C6A04F7B2E1B /* Pods-CiceroneTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CiceroneTests.modulemap"; sourceTree = "<group>"; };
+		74F4CD6062DF776E7EA5F6AA04EB4910 /* Sparkle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sparkle.debug.xcconfig; sourceTree = "<group>"; };
+		87EEA6965E4D63FD3ADBBBB13623E0DF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		895FA3FD08A31691EA2AE2E87356377B /* Pods-Cicerone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cicerone.debug.xcconfig"; sourceTree = "<group>"; };
+		8B77779631B9CB446D2AF6C305898DA5 /* SPUDownloaderSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderSession.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderSession.h; sourceTree = "<group>"; };
+		8D18DAAF8778B4EDB8F70D3939A72EEF /* SPUDownloadData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloadData.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloadData.h; sourceTree = "<group>"; };
+		8D75FB74664EE2FA6CC3D1D4185C0183 /* PXSourceList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXSourceList.release.xcconfig; sourceTree = "<group>"; };
+		8F4AF31366B97D039FE69B74D1F7C8C8 /* PXSourceListDelegateDataSourceProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceListDelegateDataSourceProxy.h; path = PXSourceList/Internal/PXSourceListDelegateDataSourceProxy.h; sourceTree = "<group>"; };
+		93E6610D849C020B2BA38DE4D3FA326C /* PXSourceListRuntimeAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceListRuntimeAdditions.h; path = PXSourceList/Internal/PXSourceListRuntimeAdditions.h; sourceTree = "<group>"; };
+		944DAFAFC6C455CDCF22B25347570E9A /* DCOAboutWindowController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCOAboutWindowController.h; path = DCOAboutWindow/DCOAboutWindowController.h; sourceTree = "<group>"; };
+		9756006ED7146F4D5C80EBB8B1FB85BD /* PXSourceListItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSourceListItem.m; path = PXSourceList/PXSourceListItem.m; sourceTree = "<group>"; };
+		9C8F44D516B4CFC62353B074938E20C1 /* Pods-CiceroneTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CiceroneTests-umbrella.h"; sourceTree = "<group>"; };
+		9CBA108E31384ACDF7FA7FB1591EB38C /* DCOTransparentScroller-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DCOTransparentScroller-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0FBB9A0C652951AEAED4EC6A6C1C25C /* SUUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdater.h; path = Sparkle.framework/Versions/A/Headers/SUUpdater.h; sourceTree = "<group>"; };
+		A28FD20BE91B47BF3092CF87D3F4A51C /* DCOAboutWindow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCOAboutWindow-prefix.pch"; sourceTree = "<group>"; };
+		A4B806A632946CEF3E5F872339534B89 /* Pods-Cicerone-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cicerone-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A542FFE782600B8936EBB69F45222599 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		ACD435B9C4B3E2BA2DD10D4DA636D048 /* PXSourceListBadgeCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceListBadgeCell.h; path = PXSourceList/PXSourceListBadgeCell.h; sourceTree = "<group>"; };
+		B1D97101D76780A092CC10D67CD7998D /* SUAppcast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcast.h; path = Sparkle.framework/Versions/A/Headers/SUAppcast.h; sourceTree = "<group>"; };
+		B56757282DA7DB7F75BB3760852FC4E6 /* SUUpdaterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdaterDelegate.h; path = Sparkle.framework/Versions/A/Headers/SUUpdaterDelegate.h; sourceTree = "<group>"; };
+		B6F6DBE0FA9264C158FBF415A0D4B27C /* PXSourceList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXSourceList.debug.xcconfig; sourceTree = "<group>"; };
+		B835F6D1ECA8DFFBE94B69A4BF744F08 /* PXSourceList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXSourceList-dummy.m"; sourceTree = "<group>"; };
+		BA03D689B48B25E042586238F9EDA5F3 /* SPUDownloaderDeprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderDeprecated.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderDeprecated.h; sourceTree = "<group>"; };
+		BB6053A4815AC79DCC59AFE1BAEFF871 /* DCOAboutWindow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCOAboutWindow-dummy.m"; sourceTree = "<group>"; };
+		BE89DF90F96146C92428F32D3DB27DE1 /* PXSourceListRuntimeAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSourceListRuntimeAdditions.m; path = PXSourceList/Internal/PXSourceListRuntimeAdditions.m; sourceTree = "<group>"; };
+		C6087746B8894F433BC27716B336A602 /* Pods-CiceroneTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CiceroneTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C7925354B329F22B346D940DE11AE028 /* PXSourceListBadgeCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSourceListBadgeCell.m; path = PXSourceList/PXSourceListBadgeCell.m; sourceTree = "<group>"; };
+		C9F6EA966F4E4D8B519272D97E035C5F /* SPUDownloaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderDelegate.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderDelegate.h; sourceTree = "<group>"; };
+		CB893C73BC5809161CEF820F3A6FB1ED /* DCOTransparentScroller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCOTransparentScroller.h; path = DCOTransparentScroller/DCOTransparentScroller.h; sourceTree = "<group>"; };
+		D14D9A3E5F489AF7FC262CDDAE70B658 /* PXSourceListDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceListDelegate.h; path = PXSourceList/PXSourceListDelegate.h; sourceTree = "<group>"; };
+		D6B086FD7DEE545B1E65B30DE575F03C /* SUVersionComparisonProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionComparisonProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionComparisonProtocol.h; sourceTree = "<group>"; };
+		D7FE20144A0EE511935858771E410B73 /* DCOTransparentScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCOTransparentScrollView.h; path = DCOTransparentScroller/DCOTransparentScrollView.h; sourceTree = "<group>"; };
+		DF45406E4AAE68BB5BD729B1AFC95030 /* DCOAboutWindow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCOAboutWindow.release.xcconfig; sourceTree = "<group>"; };
+		E56377BCDBEFD44E91E3C990746A57E3 /* Pods-CiceroneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CiceroneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6F5526EEB6E8619A7356C47E21CEE49 /* DCOAboutWindow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCOAboutWindow.modulemap; sourceTree = "<group>"; };
+		E9476AF10809DF82A247AACD40337D3E /* DCOAboutWindow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCOAboutWindow.debug.xcconfig; sourceTree = "<group>"; };
+		EC40D37CF51F7AA9C04FFE9CF7A594C9 /* PXSourceListPrivateConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceListPrivateConstants.h; path = PXSourceList/Internal/PXSourceListPrivateConstants.h; sourceTree = "<group>"; };
+		EF6FE5E7401B7E9CCEC5589FBAD8139C /* SPUURLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUURLRequest.h; path = Sparkle.framework/Versions/A/Headers/SPUURLRequest.h; sourceTree = "<group>"; };
+		F2EF8DDB0C5B4CA8CCF8D51AE77D0691 /* PXSourceListItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceListItem.h; path = PXSourceList/PXSourceListItem.h; sourceTree = "<group>"; };
+		F41EFC509210588B625F2F8F6E880FDE /* SUVersionDisplayProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionDisplayProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionDisplayProtocol.h; sourceTree = "<group>"; };
+		F47D0E19FA5AC4BDFB5534773EB5613D /* PXSourceList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSourceList.m; path = PXSourceList/PXSourceList.m; sourceTree = "<group>"; };
+		F6E98C0B2BD8A5F098241174E4715D2C /* Pods-Cicerone-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cicerone-Info.plist"; sourceTree = "<group>"; };
+		F7D2F720F2E5B741882255D688ADFE32 /* DCOAboutWindow.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DCOAboutWindow.xib; path = DCOAboutWindow/DCOAboutWindow.xib; sourceTree = "<group>"; };
+		F9BBC34E0DE274E4AD0561FA215D6A4C /* SPUDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloader.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloader.h; sourceTree = "<group>"; };
+		FA6CE64B346F13A9E4231A184E564939 /* Pods-CiceroneTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CiceroneTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FCE4B4EE232A66A138E116B08246B004 /* PXSourceListTableCellView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSourceListTableCellView.m; path = PXSourceList/PXSourceListTableCellView.m; sourceTree = "<group>"; };
+		FCE53F47638D527043E1EAC66B658A58 /* Pods-Cicerone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cicerone-umbrella.h"; sourceTree = "<group>"; };
+		FEF48ADB5913F7B1581156C8F486F376 /* Pods_Cicerone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cicerone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E326D87A99B8DAC9092E7C7ED2064F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C547D9A585A4387A7FCAAE7D1DD5C6B1 /* Cocoa.framework in Frameworks */,
+				83E6D3C8914A98455C4F97C493901AE5 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8196D2AEB0C8031180B7C6F715DC6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ABE57BC000F7DA918F6A053AFA222A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65EE7F8A3FF3B07B11927E0C5C93F5C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9124EB57EBC62ACE82139C6DBA612B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71640A7C9E20D19A49F4867BCB868C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1584F53B829D162282572BDC1DDE896 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8077D3FC8CD2BC26F49B99B3F7BF8A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7007C3F867460883C4E31A2248FF015A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13992FE847A007561EAE065882D77D3C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58B8AA66B24D525CC8A54BA8DAB5F627 /* Sparkle-copy-dsyms.sh */,
+				74F4CD6062DF776E7EA5F6AA04EB4910 /* Sparkle.debug.xcconfig */,
+				2C962A09E4753D549F162B76BA28B89E /* Sparkle.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Sparkle";
+			sourceTree = "<group>";
+		};
+		19AEA12A2FC5A60DB64C33F9F5508F05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D16A475B7469865438E281C197E823D /* DCOAboutWindow */,
+				67CC79777D7A2B71F683AB82C1640A6E /* DCOTransparentScroller */,
+				DA1110711DA3E35E741F96596DD3E5AF /* PXSourceList */,
+				A9664902E1F3C97B0D66C5CF5B79C0D6 /* Sparkle */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		25BB7E1976B94EEC00E57ED0483445DD /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				87EEA6965E4D63FD3ADBBBB13623E0DF /* Cocoa.framework */,
+				1A6A5D9ED4AC9847F663D742EF76A13E /* QuartzCore.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		34DE1C3D7E458CDA9962B564962756F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6F5526EEB6E8619A7356C47E21CEE49 /* DCOAboutWindow.modulemap */,
+				BB6053A4815AC79DCC59AFE1BAEFF871 /* DCOAboutWindow-dummy.m */,
+				152F631217009BD85D4FC43A5C04AA87 /* DCOAboutWindow-Info.plist */,
+				A28FD20BE91B47BF3092CF87D3F4A51C /* DCOAboutWindow-prefix.pch */,
+				60BE199F72B43397B382266E5991A8F5 /* DCOAboutWindow-umbrella.h */,
+				E9476AF10809DF82A247AACD40337D3E /* DCOAboutWindow.debug.xcconfig */,
+				DF45406E4AAE68BB5BD729B1AFC95030 /* DCOAboutWindow.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DCOAboutWindow";
+			sourceTree = "<group>";
+		};
+		37FC32302C6661C458D106D31E4874F0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7535AB30CB98BCDBC7A40F7D4E3ECB51 /* Pods-Cicerone */,
+				D662D82828C6893611D38173A1D62FC5 /* Pods-CiceroneTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3C4AC27A16C6990FF91EBD58B5EC2BEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				638B3D482675D5B7F772E86A0195DEFF /* DCOAboutWindow.framework */,
+				6717683B270E078467AB636904F2CE68 /* DCOTransparentScroller.framework */,
+				FEF48ADB5913F7B1581156C8F486F376 /* Pods_Cicerone.framework */,
+				16832971BD7DAD3C2EE570570A79342B /* Pods_CiceroneTests.framework */,
+				624624BD0760A5D1D8BE4C09DF17945A /* PXSourceList.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50D4846E34CEBABFA9DFB701CFE40F4C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1203EEAD6C68BFED363B002DAC035175 /* DCOTransparentScroller.modulemap */,
+				319BAAA952F7A3239D28A94308D084BD /* DCOTransparentScroller-dummy.m */,
+				9CBA108E31384ACDF7FA7FB1591EB38C /* DCOTransparentScroller-Info.plist */,
+				069C95CD0DF6C6648EAFEFCBBB110D8B /* DCOTransparentScroller-prefix.pch */,
+				6809904F4D3E375CA31C6878C104A6EF /* DCOTransparentScroller-umbrella.h */,
+				4F9EA0DFDC90CB150AEC531544E39A3B /* DCOTransparentScroller.debug.xcconfig */,
+				59DE04C286C73CFB64DAE2212241BF37 /* DCOTransparentScroller.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DCOTransparentScroller";
+			sourceTree = "<group>";
+		};
+		67CC79777D7A2B71F683AB82C1640A6E /* DCOTransparentScroller */ = {
+			isa = PBXGroup;
+			children = (
+				CB893C73BC5809161CEF820F3A6FB1ED /* DCOTransparentScroller.h */,
+				3F75C64878306878392E414F74892FF7 /* DCOTransparentScroller.m */,
+				D7FE20144A0EE511935858771E410B73 /* DCOTransparentScrollView.h */,
+				2ED5622B1911F803247332550019ED27 /* DCOTransparentScrollView.m */,
+				50D4846E34CEBABFA9DFB701CFE40F4C /* Support Files */,
+			);
+			path = DCOTransparentScroller;
+			sourceTree = "<group>";
+		};
+		7535AB30CB98BCDBC7A40F7D4E3ECB51 /* Pods-Cicerone */ = {
+			isa = PBXGroup;
+			children = (
+				4674EC2376F4F621C0473B168DCA7C51 /* Pods-Cicerone.modulemap */,
+				A4B806A632946CEF3E5F872339534B89 /* Pods-Cicerone-acknowledgements.markdown */,
+				67C52910B164763508FEF345FB6F4835 /* Pods-Cicerone-acknowledgements.plist */,
+				33D300829FCB80A2D2F0F2E69CA78074 /* Pods-Cicerone-dummy.m */,
+				637A0D1198EFEF13A6663863C62D988C /* Pods-Cicerone-frameworks.sh */,
+				F6E98C0B2BD8A5F098241174E4715D2C /* Pods-Cicerone-Info.plist */,
+				FCE53F47638D527043E1EAC66B658A58 /* Pods-Cicerone-umbrella.h */,
+				895FA3FD08A31691EA2AE2E87356377B /* Pods-Cicerone.debug.xcconfig */,
+				584D89D19CC79E8E3F390BC70B791AF8 /* Pods-Cicerone.release.xcconfig */,
+			);
+			name = "Pods-Cicerone";
+			path = "Target Support Files/Pods-Cicerone";
+			sourceTree = "<group>";
+		};
+		7F95D1AC361FD94A1054743CA73D6295 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A542FFE782600B8936EBB69F45222599 /* Sparkle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D16A475B7469865438E281C197E823D /* DCOAboutWindow */ = {
+			isa = PBXGroup;
+			children = (
+				24CB624186B06E6FB49F8DDD95A46B11 /* DCOAboutWindow.h */,
+				944DAFAFC6C455CDCF22B25347570E9A /* DCOAboutWindowController.h */,
+				63AFA5327BBD19FFAB9C85380969732B /* DCOAboutWindowController.m */,
+				5EF32FCBE7563BC6BE7FEC7C0382CD5C /* DCOBackgroundView.h */,
+				2F5A69984DD3D7CFD1D7DFE386EF186B /* DCOBackgroundView.m */,
+				B5FB4BFDD6D6568BAD3ED65A8769F8E0 /* Resources */,
+				34DE1C3D7E458CDA9962B564962756F4 /* Support Files */,
+			);
+			path = DCOAboutWindow;
+			sourceTree = "<group>";
+		};
+		A9664902E1F3C97B0D66C5CF5B79C0D6 /* Sparkle */ = {
+			isa = PBXGroup;
+			children = (
+				73A425CC6F535D01FF4843EB75C369A1 /* Sparkle.h */,
+				8D18DAAF8778B4EDB8F70D3939A72EEF /* SPUDownloadData.h */,
+				F9BBC34E0DE274E4AD0561FA215D6A4C /* SPUDownloader.h */,
+				C9F6EA966F4E4D8B519272D97E035C5F /* SPUDownloaderDelegate.h */,
+				BA03D689B48B25E042586238F9EDA5F3 /* SPUDownloaderDeprecated.h */,
+				3D29EDE064E62952AA1848A7B0CB8955 /* SPUDownloaderProtocol.h */,
+				8B77779631B9CB446D2AF6C305898DA5 /* SPUDownloaderSession.h */,
+				EF6FE5E7401B7E9CCEC5589FBAD8139C /* SPUURLRequest.h */,
+				B1D97101D76780A092CC10D67CD7998D /* SUAppcast.h */,
+				57E5C5C2BB3FC24549D5ED30358753C0 /* SUAppcastItem.h */,
+				0D715515C08041E8EB7005D365580F46 /* SUCodeSigningVerifier.h */,
+				6BB42AD79442DCF023EFBE2D0F4EF670 /* SUErrors.h */,
+				23B316915B49946353E9008C89ACE66A /* SUExport.h */,
+				0F5E0B7CAA2589C381DDDC83D7C302CB /* SUStandardVersionComparator.h */,
+				A0FBB9A0C652951AEAED4EC6A6C1C25C /* SUUpdater.h */,
+				B56757282DA7DB7F75BB3760852FC4E6 /* SUUpdaterDelegate.h */,
+				D6B086FD7DEE545B1E65B30DE575F03C /* SUVersionComparisonProtocol.h */,
+				F41EFC509210588B625F2F8F6E880FDE /* SUVersionDisplayProtocol.h */,
+				7F95D1AC361FD94A1054743CA73D6295 /* Frameworks */,
+				13992FE847A007561EAE065882D77D3C /* Support Files */,
+			);
+			path = Sparkle;
+			sourceTree = "<group>";
+		};
+		B5FB4BFDD6D6568BAD3ED65A8769F8E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7D2F720F2E5B741882255D688ADFE32 /* DCOAboutWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B60AEEBD2378DA95AE53AF88CC3F89F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70001119F4D6611DF15C6DBAAB332A67 /* PXSourceList.modulemap */,
+				B835F6D1ECA8DFFBE94B69A4BF744F08 /* PXSourceList-dummy.m */,
+				6AF8ED8C478E038B5C10200F427B0EC8 /* PXSourceList-Info.plist */,
+				1513F6344302B7BED3A62F3D76A58341 /* PXSourceList-prefix.pch */,
+				25ED2B1E6D99147A731AD8CB887CA361 /* PXSourceList-umbrella.h */,
+				B6F6DBE0FA9264C158FBF415A0D4B27C /* PXSourceList.debug.xcconfig */,
+				8D75FB74664EE2FA6CC3D1D4185C0183 /* PXSourceList.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PXSourceList";
+			sourceTree = "<group>";
+		};
+		C080C886C9E2F80D52E3E86A62E5B711 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25BB7E1976B94EEC00E57ED0483445DD /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C080C886C9E2F80D52E3E86A62E5B711 /* Frameworks */,
+				19AEA12A2FC5A60DB64C33F9F5508F05 /* Pods */,
+				3C4AC27A16C6990FF91EBD58B5EC2BEF /* Products */,
+				37FC32302C6661C458D106D31E4874F0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D662D82828C6893611D38173A1D62FC5 /* Pods-CiceroneTests */ = {
+			isa = PBXGroup;
+			children = (
+				73D593B7139E8A686804C6A04F7B2E1B /* Pods-CiceroneTests.modulemap */,
+				FA6CE64B346F13A9E4231A184E564939 /* Pods-CiceroneTests-acknowledgements.markdown */,
+				C6087746B8894F433BC27716B336A602 /* Pods-CiceroneTests-acknowledgements.plist */,
+				3C2CA2AADBB1E80E133925A3BF871BC0 /* Pods-CiceroneTests-dummy.m */,
+				59602DE90786E07DBFF28876D5F7CFD2 /* Pods-CiceroneTests-Info.plist */,
+				9C8F44D516B4CFC62353B074938E20C1 /* Pods-CiceroneTests-umbrella.h */,
+				E56377BCDBEFD44E91E3C990746A57E3 /* Pods-CiceroneTests.debug.xcconfig */,
+				1ABAB88054402683FF5555A195E8DD81 /* Pods-CiceroneTests.release.xcconfig */,
+			);
+			name = "Pods-CiceroneTests";
+			path = "Target Support Files/Pods-CiceroneTests";
+			sourceTree = "<group>";
+		};
+		DA1110711DA3E35E741F96596DD3E5AF /* PXSourceList */ = {
+			isa = PBXGroup;
+			children = (
+				7230AF318773B1CFB2EF6CA4A5AEBD64 /* PXSourceList.h */,
+				F47D0E19FA5AC4BDFB5534773EB5613D /* PXSourceList.m */,
+				ACD435B9C4B3E2BA2DD10D4DA636D048 /* PXSourceListBadgeCell.h */,
+				C7925354B329F22B346D940DE11AE028 /* PXSourceListBadgeCell.m */,
+				5AA264EE922DEC8345E437D460996777 /* PXSourceListBadgeView.h */,
+				33A1BF8ADDA5D0C894E803269D808018 /* PXSourceListBadgeView.m */,
+				73A23639CA6688968AF97C2F62AB0252 /* PXSourceListDataSource.h */,
+				D14D9A3E5F489AF7FC262CDDAE70B658 /* PXSourceListDelegate.h */,
+				8F4AF31366B97D039FE69B74D1F7C8C8 /* PXSourceListDelegateDataSourceProxy.h */,
+				6F27DCE3F104DE24F38DF5F9036626FE /* PXSourceListDelegateDataSourceProxy.m */,
+				F2EF8DDB0C5B4CA8CCF8D51AE77D0691 /* PXSourceListItem.h */,
+				9756006ED7146F4D5C80EBB8B1FB85BD /* PXSourceListItem.m */,
+				EC40D37CF51F7AA9C04FFE9CF7A594C9 /* PXSourceListPrivateConstants.h */,
+				93E6610D849C020B2BA38DE4D3FA326C /* PXSourceListRuntimeAdditions.h */,
+				BE89DF90F96146C92428F32D3DB27DE1 /* PXSourceListRuntimeAdditions.m */,
+				5CE80CD6D2CEBDA758D60C18D6D38209 /* PXSourceListTableCellView.h */,
+				FCE4B4EE232A66A138E116B08246B004 /* PXSourceListTableCellView.m */,
+				B60AEEBD2378DA95AE53AF88CC3F89F7 /* Support Files */,
+			);
+			path = PXSourceList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		347550BEA69E730492E1DC03F3FB1130 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E47CA83C69DE826BB207BBA8A3D3B7 /* PXSourceList.h in Headers */,
+				D7F854DB5C7274790D327827152085D0 /* PXSourceList-umbrella.h in Headers */,
+				D8C4721F53366A9359F406B0D229F22F /* PXSourceListBadgeCell.h in Headers */,
+				6B30627CAAF20E54E2B64CE8CA09FFC9 /* PXSourceListBadgeView.h in Headers */,
+				2D3E0BFE2D74389A809E366B5E5D6DA1 /* PXSourceListDataSource.h in Headers */,
+				CDBE501CC586E5CBB25D60BDE7E83A36 /* PXSourceListDelegate.h in Headers */,
+				CBD4A624F280FF19BB38DC8D2131B205 /* PXSourceListDelegateDataSourceProxy.h in Headers */,
+				CAE72F4D47E59BA8A1144830B52DE5E6 /* PXSourceListItem.h in Headers */,
+				9560BE985BCF37D60BCD9D9A8DF013A0 /* PXSourceListPrivateConstants.h in Headers */,
+				3B54C1217B270D62F78505353209031F /* PXSourceListRuntimeAdditions.h in Headers */,
+				A41224F1ABED3BFADE04C0EA1955D76F /* PXSourceListTableCellView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF9DEAC2884C283327477978F1458DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F453CE983B01B0A74D42B0C0EF6EA34F /* DCOAboutWindow.h in Headers */,
+				0F4163D01751CFE463EC67D822898217 /* DCOAboutWindow-umbrella.h in Headers */,
+				3D8FA5C208A421E5D1F6326BBDF5B131 /* DCOAboutWindowController.h in Headers */,
+				551E3F26EE09DFA28C6CBB6AB5CE1397 /* DCOBackgroundView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D97EC90AA8A4FB9F029B1398F5E2B1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA5F376B3E906EFC853C81EC6EA3E7A /* Pods-Cicerone-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B2E3A0EF0AC7F33FA5AA1F8C42E119 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E978F7A2884601A30DA6B68B8E1BFD3E /* DCOTransparentScroller.h in Headers */,
+				0356977BBB9DA8E615F007FDFC9BBDF6 /* DCOTransparentScroller-umbrella.h in Headers */,
+				5B544CE83E96314EF02EB58C3E988078 /* DCOTransparentScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC7E3CEA6404D4031150EFB07348FEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE58598238E12B0D97DD58CB4B07A0DA /* Pods-CiceroneTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1561D4129CE8832BE2C16AC8153529F7 /* Pods-Cicerone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B51C59634CC4B2E6F7853852064298 /* Build configuration list for PBXNativeTarget "Pods-Cicerone" */;
+			buildPhases = (
+				8D97EC90AA8A4FB9F029B1398F5E2B1B /* Headers */,
+				D42C070E43A4FB90E256B9F0A12D6EEE /* Sources */,
+				65EE7F8A3FF3B07B11927E0C5C93F5C2 /* Frameworks */,
+				F6CB346951B382D64C01E65F90D221BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				061E7A118487A94060CA3D37C00089E8 /* PBXTargetDependency */,
+				F77666A991765588CBA3ECC3B6845EAF /* PBXTargetDependency */,
+				249AC44C53D11E32A8DB519CCE1ABA7A /* PBXTargetDependency */,
+				5A02DD91055F5F6AE371A2833569D271 /* PBXTargetDependency */,
+			);
+			name = "Pods-Cicerone";
+			productName = Pods_Cicerone;
+			productReference = FEF48ADB5913F7B1581156C8F486F376 /* Pods_Cicerone.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		473E93685388A69E22F605824DC92BC9 /* Pods-CiceroneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDE149E08542E9B9FE08772931E5ACD /* Build configuration list for PBXNativeTarget "Pods-CiceroneTests" */;
+			buildPhases = (
+				FBC7E3CEA6404D4031150EFB07348FEF /* Headers */,
+				7FC4116074B9144051C37B132F954221 /* Sources */,
+				71640A7C9E20D19A49F4867BCB868C79 /* Frameworks */,
+				9E392C32F4F3F66DB263447A168D3084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B8F8307D2FFB38F0ACB0D656CF2A072 /* PBXTargetDependency */,
+			);
+			name = "Pods-CiceroneTests";
+			productName = Pods_CiceroneTests;
+			productReference = 16832971BD7DAD3C2EE570570A79342B /* Pods_CiceroneTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F0275071F44FE841D0D575DD123BCFE /* DCOTransparentScroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3412545B3F728711510B24406AF45DEE /* Build configuration list for PBXNativeTarget "DCOTransparentScroller" */;
+			buildPhases = (
+				A4B2E3A0EF0AC7F33FA5AA1F8C42E119 /* Headers */,
+				6E55857763BA0F43448E680543FC5C2B /* Sources */,
+				5D8196D2AEB0C8031180B7C6F715DC6F /* Frameworks */,
+				476EB9D80E5B7CE8085DE96719925835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCOTransparentScroller;
+			productName = DCOTransparentScroller;
+			productReference = 6717683B270E078467AB636904F2CE68 /* DCOTransparentScroller.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68475F67E4E3E7CE4DA1BE9B730848D6 /* DCOAboutWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BDB1F982AB943A90852999CD824D48F /* Build configuration list for PBXNativeTarget "DCOAboutWindow" */;
+			buildPhases = (
+				4CF9DEAC2884C283327477978F1458DA /* Headers */,
+				2750DDA67FEFF8C1AA0D1E5C4A0B8EAA /* Sources */,
+				55E326D87A99B8DAC9092E7C7ED2064F /* Frameworks */,
+				B2622579315E2767A40ED7DD50F4D4DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA194E4F5042A6308BAF0E991E199EA6 /* PBXTargetDependency */,
+			);
+			name = DCOAboutWindow;
+			productName = DCOAboutWindow;
+			productReference = 638B3D482675D5B7F772E86A0195DEFF /* DCOAboutWindow.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD10B6B4320021818109896365D84B6C /* PXSourceList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C7ADE45870463DECFDD79D8074A5957 /* Build configuration list for PBXNativeTarget "PXSourceList" */;
+			buildPhases = (
+				347550BEA69E730492E1DC03F3FB1130 /* Headers */,
+				1C6CAE2A4E39FD1237E0C80425638C11 /* Sources */,
+				A8077D3FC8CD2BC26F49B99B3F7BF8A8 /* Frameworks */,
+				38C68DA00CE17DF9CD80BB566343E532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PXSourceList;
+			productName = PXSourceList;
+			productReference = 624624BD0760A5D1D8BE4C09DF17945A /* PXSourceList.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3C4AC27A16C6990FF91EBD58B5EC2BEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68475F67E4E3E7CE4DA1BE9B730848D6 /* DCOAboutWindow */,
+				5F0275071F44FE841D0D575DD123BCFE /* DCOTransparentScroller */,
+				1561D4129CE8832BE2C16AC8153529F7 /* Pods-Cicerone */,
+				473E93685388A69E22F605824DC92BC9 /* Pods-CiceroneTests */,
+				FD10B6B4320021818109896365D84B6C /* PXSourceList */,
+				ED77B4B88587C894E85C361023D67C53 /* Sparkle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38C68DA00CE17DF9CD80BB566343E532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476EB9D80E5B7CE8085DE96719925835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E392C32F4F3F66DB263447A168D3084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2622579315E2767A40ED7DD50F4D4DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44A61A4E74CEBFA4BE5EAF9699E2102 /* DCOAboutWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CB346951B382D64C01E65F90D221BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A181939804C9F1E56224ACF31BF086B /* [CP] Copy dSYMs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Sparkle/Sparkle-copy-dsyms-input-files.xcfilelist",
+			);
+			name = "[CP] Copy dSYMs";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Sparkle/Sparkle-copy-dsyms-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Sparkle/Sparkle-copy-dsyms.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C6CAE2A4E39FD1237E0C80425638C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BA80298A50ACE848044C887151835E /* PXSourceList.m in Sources */,
+				263E5357F21B251A7066A5D48E6F97E9 /* PXSourceList-dummy.m in Sources */,
+				ECDED90D6E07951DA8F8E30FE431C8F1 /* PXSourceListBadgeCell.m in Sources */,
+				5BDB81855D763DD87F20B977B01F08C5 /* PXSourceListBadgeView.m in Sources */,
+				B3886E49C28AD415B128DC817D248764 /* PXSourceListDelegateDataSourceProxy.m in Sources */,
+				78EA6C132CD3B6A8E9CCEA99711C00BE /* PXSourceListItem.m in Sources */,
+				470FC5D94128628FFC23A5FC195672D2 /* PXSourceListRuntimeAdditions.m in Sources */,
+				F4F55ACA2C21CC8B619EA938AE1A1B23 /* PXSourceListTableCellView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2750DDA67FEFF8C1AA0D1E5C4A0B8EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA61A1C70496CF047A73AE3D00597EE /* DCOAboutWindow-dummy.m in Sources */,
+				BFD96B633C6857BA65686D540355C718 /* DCOAboutWindowController.m in Sources */,
+				AD9FF53C385EAB1535C76307E717ADAD /* DCOBackgroundView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E55857763BA0F43448E680543FC5C2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C7FD996AAD3DE52CBAD55B92D8F614 /* DCOTransparentScroller.m in Sources */,
+				1CBDA9683517EBFC8CAC7BC15460C21D /* DCOTransparentScroller-dummy.m in Sources */,
+				10E8D3E1E9EE50F884263887FC61943A /* DCOTransparentScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC4116074B9144051C37B132F954221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236DA9CFC54A2F5316676285989BBB01 /* Pods-CiceroneTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42C070E43A4FB90E256B9F0A12D6EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126272468929F5344DC518698624DBD9 /* Pods-Cicerone-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		061E7A118487A94060CA3D37C00089E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DCOAboutWindow;
+			target = 68475F67E4E3E7CE4DA1BE9B730848D6 /* DCOAboutWindow */;
+			targetProxy = 2530CFAFD49A0E10C7BA8A599A6768FD /* PBXContainerItemProxy */;
+		};
+		249AC44C53D11E32A8DB519CCE1ABA7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXSourceList;
+			target = FD10B6B4320021818109896365D84B6C /* PXSourceList */;
+			targetProxy = E696D83AF0888CD10030D20AA8FA7728 /* PBXContainerItemProxy */;
+		};
+		5A02DD91055F5F6AE371A2833569D271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sparkle;
+			target = ED77B4B88587C894E85C361023D67C53 /* Sparkle */;
+			targetProxy = 0262F1583ED80F7EFC95460B22C28103 /* PBXContainerItemProxy */;
+		};
+		7B8F8307D2FFB38F0ACB0D656CF2A072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Cicerone";
+			target = 1561D4129CE8832BE2C16AC8153529F7 /* Pods-Cicerone */;
+			targetProxy = 54A58480CD5DAD0A4DE0EE5D58E3E87D /* PBXContainerItemProxy */;
+		};
+		DA194E4F5042A6308BAF0E991E199EA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DCOTransparentScroller;
+			target = 5F0275071F44FE841D0D575DD123BCFE /* DCOTransparentScroller */;
+			targetProxy = A59E6257DC260C9CCC3A03FF0CE4BD0F /* PBXContainerItemProxy */;
+		};
+		F77666A991765588CBA3ECC3B6845EAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DCOTransparentScroller;
+			target = 5F0275071F44FE841D0D575DD123BCFE /* DCOTransparentScroller */;
+			targetProxy = 679277AF96EB2EB7413A238A8BB245A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		084774E8A629EFFE02FB05C2EFE6B0AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF45406E4AAE68BB5BD729B1AFC95030 /* DCOAboutWindow.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DCOAboutWindow/DCOAboutWindow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DCOAboutWindow/DCOAboutWindow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MODULEMAP_FILE = "Target Support Files/DCOAboutWindow/DCOAboutWindow.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = DCOAboutWindow;
+				PRODUCT_NAME = DCOAboutWindow;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0992CC3F24A9DB5E946EDE9A1913B71A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5A5BACB1FD2A78D155DA31D9E55187B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F9EA0DFDC90CB150AEC531544E39A3B /* DCOTransparentScroller.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DCOTransparentScroller/DCOTransparentScroller-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DCOTransparentScroller/DCOTransparentScroller-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MODULEMAP_FILE = "Target Support Files/DCOTransparentScroller/DCOTransparentScroller.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = DCOTransparentScroller;
+				PRODUCT_NAME = DCOTransparentScroller;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FCC6C7E92C4FD17BA0E96B79FF23A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59DE04C286C73CFB64DAE2212241BF37 /* DCOTransparentScroller.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DCOTransparentScroller/DCOTransparentScroller-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DCOTransparentScroller/DCOTransparentScroller-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MODULEMAP_FILE = "Target Support Files/DCOTransparentScroller/DCOTransparentScroller.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = DCOTransparentScroller;
+				PRODUCT_NAME = DCOTransparentScroller;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6457BC94D8B0A7560BF64DFFDE4CB3DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895FA3FD08A31691EA2AE2E87356377B /* Pods-Cicerone.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Cicerone/Pods-Cicerone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cicerone/Pods-Cicerone.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		64C065F5D8E00A7569B9220163F6A238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C962A09E4753D549F162B76BA28B89E /* Sparkle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		81F2D4B7AC97AE2F185FD819F194E167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F6DBE0FA9264C158FBF415A0D4B27C /* PXSourceList.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXSourceList/PXSourceList-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXSourceList/PXSourceList-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MODULEMAP_FILE = "Target Support Files/PXSourceList/PXSourceList.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = PXSourceList;
+				PRODUCT_NAME = PXSourceList;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DAC540AE5FD7CC476B49A21A8EBB230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D75FB74664EE2FA6CC3D1D4185C0183 /* PXSourceList.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXSourceList/PXSourceList-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXSourceList/PXSourceList-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MODULEMAP_FILE = "Target Support Files/PXSourceList/PXSourceList.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = PXSourceList;
+				PRODUCT_NAME = PXSourceList;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95AC6B34604C895BE85469E05EA5A6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74F4CD6062DF776E7EA5F6AA04EB4910 /* Sparkle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A1480C186C232BFFC70FE88A01B02421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 584D89D19CC79E8E3F390BC70B791AF8 /* Pods-Cicerone.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Cicerone/Pods-Cicerone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cicerone/Pods-Cicerone.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3C4550DAFBC946613DB7AE872398116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9476AF10809DF82A247AACD40337D3E /* DCOAboutWindow.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DCOAboutWindow/DCOAboutWindow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DCOAboutWindow/DCOAboutWindow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MODULEMAP_FILE = "Target Support Files/DCOAboutWindow/DCOAboutWindow.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = DCOAboutWindow;
+				PRODUCT_NAME = DCOAboutWindow;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D636701858A6577DB2B4D33945C0F99B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ABAB88054402683FF5555A195E8DD81 /* Pods-CiceroneTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CiceroneTests/Pods-CiceroneTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MODULEMAP_FILE = "Target Support Files/Pods-CiceroneTests/Pods-CiceroneTests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E383813BB9EF92D168073DA31B440AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E56377BCDBEFD44E91E3C990746A57E3 /* Pods-CiceroneTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CiceroneTests/Pods-CiceroneTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MODULEMAP_FILE = "Target Support Files/Pods-CiceroneTests/Pods-CiceroneTests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F464707F7EDA20BE99058C56CAE170DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C7ADE45870463DECFDD79D8074A5957 /* Build configuration list for PBXNativeTarget "PXSourceList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F2D4B7AC97AE2F185FD819F194E167 /* Debug */,
+				8DAC540AE5FD7CC476B49A21A8EBB230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C3FA8CADE61CE3FE2492EDBA06C452 /* Build configuration list for PBXAggregateTarget "Sparkle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AC6B34604C895BE85469E05EA5A6C3 /* Debug */,
+				64C065F5D8E00A7569B9220163F6A238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3412545B3F728711510B24406AF45DEE /* Build configuration list for PBXNativeTarget "DCOTransparentScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5BACB1FD2A78D155DA31D9E55187B4 /* Debug */,
+				5FCC6C7E92C4FD17BA0E96B79FF23A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F464707F7EDA20BE99058C56CAE170DE /* Debug */,
+				0992CC3F24A9DB5E946EDE9A1913B71A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BDB1F982AB943A90852999CD824D48F /* Build configuration list for PBXNativeTarget "DCOAboutWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C4550DAFBC946613DB7AE872398116 /* Debug */,
+				084774E8A629EFFE02FB05C2EFE6B0AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B51C59634CC4B2E6F7853852064298 /* Build configuration list for PBXNativeTarget "Pods-Cicerone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6457BC94D8B0A7560BF64DFFDE4CB3DF /* Debug */,
+				A1480C186C232BFFC70FE88A01B02421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDE149E08542E9B9FE08772931E5ACD /* Build configuration list for PBXNativeTarget "Pods-CiceroneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E383813BB9EF92D168073DA31B440AD2 /* Debug */,
+				D636701858A6577DB2B4D33945C0F99B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

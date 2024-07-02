@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-Cicerone/Pods-Cicerone-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DCOAboutWindow/DCOAboutWindow.framework
+${BUILT_PRODUCTS_DIR}/DCOTransparentScroller/DCOTransparentScroller.framework
+${BUILT_PRODUCTS_DIR}/PXSourceList/PXSourceList.framework
+${PODS_ROOT}/Sparkle/Sparkle.framework
